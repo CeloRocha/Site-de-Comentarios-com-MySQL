@@ -1,0 +1,32 @@
+
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Comentário Smarkio</title>
+    <link rel="stylesheet" href="pagina.css">
+  </head>
+  <body>
+    <img src="fundo.png" alt="imagem de fundo" class="fundo">
+    <div class="DivisãoVertical">
+      <div>
+        <header>
+          <h1>Discussões sobre estágio:</h1>
+        </header>
+      </div>
+      <div class="DivisaoHorizontal" id="divHorizontal">
+        <div class="Esquerda">
+          <input type="text" name="Nome" value="Escreva o seu nome:">
+          <textarea type="text" name="Mensagem" class="Entrada" cols="30" rows="10">Escreva a sua mensagem.</textarea>
+          <div class="Botoes">
+            <button type="button" name="cancelar" id="cancel">Cancelar</button>
+            <button type="button" name="enviar" id="enviar">Enviar</button>
+          </div>
+        </div>
+        <div class="Direita" id="DivComentarios"></div>
+        
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="pagina.js"></script>
+  </body>
+</html>
